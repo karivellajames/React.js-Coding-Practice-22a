@@ -1,0 +1,58 @@
+/* Write your CSS code here */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.header-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-logo {
+  height: 30px;
+  width: 35px;
+  margin-right: 15px;
+}
+
+.header-logo-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #12022f;
+}
+
+.header-options {
+  list-style-type: none;
+  display: flex;
+}
+
+.options {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  color: #12022f;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .header-logo {
+    height: 60px;
+    width: 65px;
+  }
+
+  .header-logo-text {
+    font-size: 35px;
+  }
+
+  .options {
+    font-size: 28px;
+    margin-right: 20px;
+  }
+}
